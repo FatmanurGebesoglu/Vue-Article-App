@@ -1,12 +1,22 @@
 <template>
-  <nav>
-    
-  </nav>
+  <Navbar/>
   <router-view/>
 </template>
 
+<script>
+
+import Navbar from './components/Navbar.vue'
+
+export default {
+  name: 'App',
+  components: {
+    Navbar
+  }
+}
+</script>
+
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;500;600;700;800&family=Dancing+Script:wght@400;700&family=Electrolize&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;500;600;700;800&family=Dancing+Script:wght@400;700&family=Electrolize&family=Open+Sans:wght@300;400;500;600;700&family=Yusei+Magic&display=swap');
 
 body{
   max-width: 1200px;
