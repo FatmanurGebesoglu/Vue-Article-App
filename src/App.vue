@@ -1,30 +1,31 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    
   </nav>
   <router-view/>
 </template>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;500;600;700;800&family=Dancing+Script:wght@400;700&family=Electrolize&family=Open+Sans:wght@300;400;500;600;700&display=swap');
 
-nav {
-  padding: 30px;
+body{
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+  font-family: 'Yusei Magic', sans-serif;
+  background-color: #F9FBE7;
 }
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
+p,h1,h2,h3,a,ul{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: #643843;
 }
-
-nav a.router-link-exact-active {
-  color: #42b983;
+h2{
+  margin-bottom: 40px;
+}
+h3{
+  text-transform: capitalize;
+  margin-bottom: 8px;
 }
 </style>
